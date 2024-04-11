@@ -28,9 +28,9 @@ def title_screen_menu():
         return
     
 def title_screen():
-    print("#" * 30)
-    print('# Welcome to No More Gods. #')
-    print("#" * 30)
+    print("#"*len('# Welcome to No Gods Left. #'))
+    print('# Welcome to No Gods Left. #')
+    print("#"*len('# Welcome to No Gods Left. #'))
     print('Play')
     print('Help')
     print('Quit')
@@ -40,7 +40,7 @@ def title_screen():
 
 def help_menu():
     print("#" * 30)
-    print('# No More Gods - Help Screen. #')
+    print('# No Gods Left - Help Screen. #')
     print("#" * 30)
     print('— Use actions like look and interact')
     print("— Use move to go to the next room when you're done")
