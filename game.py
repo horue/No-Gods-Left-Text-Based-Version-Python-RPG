@@ -28,24 +28,25 @@ def title_screen_menu():
         return
     
 def title_screen():
-    print("#"*len('# Welcome to No Gods Left. #'))
-    print('# Welcome to No Gods Left. #')
-    print("#"*len('# Welcome to No Gods Left. #'))
-    print('Play')
-    print('Help')
-    print('Quit')
-    print('Made by horue.')
+    print("#"*len('# No Gods Left. #'))
+    print('# No Gods Left. #')
+    print("#"*len('# No Gods Left. #'))
+    print('Novo Jogo')
+    print('Continuar')
+    print('Ajuda')
+    print('Sair')
+    print('Feito por horue.')
     title_screen_menu()
 
 
 def help_menu():
-    print("#" * 30)
-    print('# No Gods Left - Help Screen. #')
-    print("#" * 30)
-    print('— Use actions like look and interact')
-    print("— Use move to go to the next room when you're done")
-    print('— Have fun!')
-    print('Made by horue.')
+    print("#" * len('# No Gods Left - Tela de Ajuda. #'))
+    print('# No Gods Left - Tela de Ajuda. #')
+    print("#" * len('# No Gods Left - Tela de Ajuda. #'))
+    print('— Use as ações sugeridas para contiunar o jogo')
+    print("— Use 'falar' para interagir com algum personagem")
+    print('— Se divirta!')
+    print('Feito por horue.')
     return(title_screen)
 
 
